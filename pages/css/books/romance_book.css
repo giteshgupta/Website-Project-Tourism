@@ -1,0 +1,65 @@
+@import url("header_book.css");
+@import url("../footer.css");
+
+			body{
+				background-image: url("../../res/img/romance.jpeg");
+				background-repeat: no-repeat;
+				background-position: center;
+				background-attachment: fixed;
+				background-size: 100% 100%;
+				margin: 0;
+			}
+			.imgright{
+				background-color: black;
+				float:right;
+				margin:5%;
+				padding:1%;
+				text-align:right;
+				height: 300px;
+				width: 200px;
+			}
+			.imgleft{
+				background-color: black;
+				float:left;
+				margin:5%;
+				padding:1%;
+				text-align:right;
+				height: 300px;
+				width: 200px;
+			}
+			.pararight{
+			background-color: rgb(240,228,176,0.7);
+			text-align:right;
+			margin:5%;
+			padding:1%;
+			font-family: papyrus;
+			font-size: 18px;
+			font-weight: bold;
+			}
+			.paraleft{
+			background-color: rgb(240,228,176,0.7);
+			text-align:left;
+			margin:5%;
+			padding:1%;
+			font-family: papyrus;
+			font-size: 18px;
+			font-weight: bold;
+			}
+			H1
+			{
+				background-color: rgb(240,228,176,0.9);
+				padding:1%;
+				font-family:castellar;
+				text-align: center;
+				font-size: 1cm;
+				font-weight: bold;
+			}
+			H2
+			{
+				background-color: rgb(240,228,176,0.9);
+				padding: 1%;
+				font-family:castellar;
+				text-align: center;
+				font-weight: bold;
+			}
+			
