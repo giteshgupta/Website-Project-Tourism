@@ -1,0 +1,343 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		
+		<link rel="stylesheet" href=".\css\bootstrap.min.css">
+		<link rel="stylesheet" href=".\css\header.css">
+		
+		
+		<div class="nav navbar-fixed-top" style="height:133px;color:black;background-image: url(https://s28771.pcdn.co/wp-content/uploads/2014/12/light-grey-background-02.jpg);" id="gitu">
+		
+		
+			<div id="mySidenav" class="sidenav">
+			<a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+			<a href="#">Home</a>
+			<a href="./pages/explore.html">Explore</a>
+			<a href="./pages/search.html">Search</a>
+			<a href="./pages/aboutus.html">About</a>
+			<a href="./pages/booking.html">About</a>
+			</div>
+
+			
+			
+			<div class="headlogo">
+			<img src="res/icons/logo website.png">
+			</div>
+			
+			<span class="menu line-1 anim-typewriter" style="font-size:55px;cursor:pointer;color:rgb(15, 4, 4);" onclick="openNav()">&#9776;
+				<p class="line-1 anim-typewriter">To Visit, Is To Travel!! Welcome To The World Of Beauty.</p>
+			 </span>
+		
+			</div> 
+			
+		<!--Side Nav Starts-->
+		
+		<!--Side Nav Ends-->
+		<style>
+			@import url(https://fonts.googleapis.com/css?family=Anonymous+Pro);
+
+/* Global */
+
+.line-1{
+    position: relative;
+    top: 50%;  
+    width: 30em;
+    margin: 0 auto;
+    border-right: 2px solid rgba(255,255,255,.75);
+    font-size: 90%;
+    text-align: center;
+    white-space: nowrap;
+    overflow: hidden;
+    transform: translateY(-50%);    
+}
+
+/* Animation */
+.anim-typewriter{
+  animation: typewriter 7s steps(55) 1s 1 normal both,
+             blinkTextCursor 500ms steps(44) infinite normal;
+}
+@keyframes typewriter{
+  from{width: 0;}
+  to{width: 28em;}
+}
+@keyframes blinkTextCursor{
+  from{border-right-color: rgba(255,255,255,.75);}
+  to{border-right-color: transparent;}
+}
+		</style>
+		
+		
+		</head>
+		
+
+
+
+	<body>
+		
+		
+
+	<button onclick="topFunction()" id="myBtn" title="Go to top"><span class="glyphicon glyphicon-chevron-up" id="arrow"></span></button>
+	<!--Carousel Starts-->
+
+	<div class="row">
+		<!-- Carousel -->
+		<div id="carousel-example-generic" class="carousel slide" data-ride="carousel" data-interval="3000">
+
+			<!-- Wrapper for slides -->
+			<div class="carousel-inner">
+				<div class="item">
+					<img src="./res/slides/s3.jpg" alt="First slide" height="400px">
+				</div>
+				<div class="item ">
+					<img src="./res/slides/s2.jpg" alt="Second slide" height="400px">
+				</div>
+				<div class="item active">
+					<img src="./res/slides/s5.jpg" alt="Third slide" height="400px">
+				</div>
+				<div class="item ">
+					<img src="./res/slides/s6.jpg" alt="Fourth slide" height="400px">
+				</div>
+
+			</div>
+		</div>
+	</div>
+
+
+	<!-- /Carousel -->
+
+	<!--Parallax-->
+
+		<!--Explore-->
+
+			<section class="sec1">
+				<section class="Text">
+					<h1>Explore</h1>
+					<p>Enter the world of beauty and choose from the best destinations among preferable categories. Relax, explore and select the
+						best place for yourself..</p>
+				</section>
+				<a href="./pages/explore.html">
+				<div class="iceon">
+					<div class="glyphicon-ring glyphicon-brown"> <span class="glyphicon glyphicon-book glyphicon-bordered"></span>
+				</div>
+				</a>
+			</section>
+
+		<!--/Explore-->
+
+			<div class="bestsellers">
+				<div class="book">
+					<img src="https://i.pinimg.com/236x/a8/37/df/a837df746ff12c944c97bea603b20b81.jpg" alt="Gone Girl" class="bookpic">
+					<br/><br/>
+					<h3 class="name">The Hilly Chill</h3>
+					<br/><br/>
+					<a class="data" href="./html/horror/cannibal.html">Read more</a>
+				</div>
+			
+				<div class="book">
+					<img src="https://i.pinimg.com/236x/8a/4d/ff/8a4dff4d65e7a79ef54fd71a10d43e12.jpg" alt="Notebook" class="bookpic">
+					<br/><br/>
+					<h3 class="name">The Historic Architect</h3>
+					<br/><br/>
+					<a class="data" href="./html/romance/the_notebook.html">Read more</a>
+				</div>
+			
+				<div class="book">
+					<img src="https://i.pinimg.com/236x/e7/a4/69/e7a4694b725f16028d4b43d74d895dbb.jpg" alt="It" class="bookpic">
+					<br/><br/>
+					<h3 class="name">Adventure & Hiking</h3>
+					<br/><br/>
+					<a class="data" href="./html/mystery/it.html">Read more</a>
+				</div>
+			
+			</div>
+
+		<!--Search-->
+
+			<section class="sec2">
+				<section class="Text">
+					<h1>Search</h1>
+					<p>Search for the book you are interested in to get a review and know where to find it..</p>
+				</section>
+	
+				<div class="iceon">
+					<a href="pages/search.html"><div class="glyphicon-ring glyphicon-brown"> <span class="glyphicon glyphicon-search glyphicon-bordered"></span>
+					</div></a>
+				</div>
+			
+				
+			</section>
+
+		<!--/Search-->
+	
+			<div class="review">
+
+				  <div class='row' style="background-image: url(data:image/jpeg;base64,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);">
+					<div class='col-md-offset-2 col-md-7'>
+					  <div class="carousel slide" data-interval="3000" data-ride="carousel" id="quote-carousel" style="margin-top: 10%;">
+						<!-- Carousel Slides / Quotes -->
+						<div class="carousel-inner">
+							
+						  <!-- Quote 1 -->
+						  <div class="item active">
+							<blockquote>
+							  <div class="row">
+								<div class="col-sm-3 text-center">
+								  <img class="img-circle" src="res\review1.jpeg" style="width:100px;  height:100px;">
+								</div>
+								<div class="col-sm-9">
+								  <p>As I see the world, there's one element that's even more corrosive than missionaries: tourists. It's not that I feel above them in any way, but that the very places they patronize are destroyed by their affection.”</p>
+								  <small>-New York Times</small>
+								</div>
+							  </div>
+							</blockquote>
+							</div>
+							
+							
+						  <!-- Quote 2 -->
+						  <div class="item">
+							<blockquote>
+							  <div class="row">
+								<div class="col-sm-3 text-center">
+								  <img class="img-circle" src="https://s3.amazonaws.com/uifaces/faces/twitter/mijustin/128.jpg" style="width:100px; height:100px;">
+								</div>
+								<div class="col-sm-9">
+								  <p>““The basis of tourism is perception of otherness, of something being different from the usual.”” </p>
+								  <small>-Sylvia Curbela</small>
+								</div>
+							  </div>
+							</blockquote>
+							</div>
+							
+
+						  <!-- Quote 3 -->
+						  <div class="item">
+							<blockquote>
+							  <div class="row">
+								<div class="col-sm-3 text-center">
+								  <img class="img-circle" src="https://s3.amazonaws.com/uifaces/faces/twitter/keizgoesboom/128.jpg" style="width:100px; height:100px;">
+								</div>
+								<div class="col-sm-9">
+								  <p>It’s never too late to have a life you love. Don’t ever feel like you’ve missed the boat, don’t have what it takes or can’t achieve your dreams. Instead of removing your dreams, remove the doubts and fears keeping you from them</p>
+								  <small>-The Hindu</small>
+								</div>
+							  </div>
+							</blockquote>
+						  </div>
+						</div>
+						
+					
+						
+					  </div>                          	
+					</div>
+				  </div>
+			
+			</div>
+
+		<!--Signin-->
+
+			<section class="sec3">
+				<section class="signin">
+					<h1>Sign Up</h1>
+					<p>
+						<form method="post" action="Default.aspx" id="form1">
+							<div class="fields">
+								<h2 class="form-signin-heading">
+									Registration
+								</h2>
+
+								<!--Fields Start-->
+								<label for="txtUsername">
+									Username
+								</label>
+								<div class="input-group">
+									<span class="input-group-addon"><i class="glyphicon glyphicon-user"></i></span>
+									<input name="txtUsername" type="text" id="txtUsername" class="form-control" placeholder="Enter Username" required />
+								</div>
+								<br />
+								<label for="txtPassword">
+									Password</label>
+								<div class="input-group">
+									<span class="input-group-addon"><i class="glyphicon glyphicon-lock"></i></span>
+									<input name="txtPassword" type="password" id="txtPassword" title="Password must contain: Minimum 8 characters atleast 1 Alphabet and 1 Number"
+									class="form-control" placeholder="Enter Password (atleast 8 characters)" required pattern="^(?=.*[A-Za-z])(?=.*\d)[A-Za-z\d]{8,}$" />
+								</div>
+								<br />
+								<label for="txtConfirmPassword">
+									Confirm Password</label>
+								<div class="input-group">
+									<span class="input-group-addon"><i class="glyphicon glyphicon-lock"></i></span>
+									<input name="txtConfirmPassword" type="password" id="txtConfirmPassword" class="form-control" placeholder="Confirm Password" />
+								</div>
+								<br />
+								<label for="txtEmail">
+									Email</label>
+								<div class="input-group">
+									<span class="input-group-addon"><i class="glyphicon glyphicon-envelope"></i></span>
+									<input name="txtEmail" id="txtEmail" class="form-control" placeholder="Enter Email" required type="email" />
+								</div>
+								<hr />
+								<input type="submit" name="btnSignup" value="Sign up" id="btnSignup" />
+
+								<!--Fields end-->
+							</div>
+						</form>
+					</p>
+				</section>
+			</section>
+
+		<!--/Signin-->
+
+		<!--About us-->
+
+			<a href="./pages/aboutus.html">
+				<section class="sec4">
+					<section class="Text1">
+						<h1>About Us</h1>
+					</section>
+				</section>
+			</a>
+		
+		<!--/About Us-->
+
+	<!--/Parallax-->
+
+	<script>
+		// When the user scrolls down 20px from the top of the document, show the button
+		window.onscroll = function() {scrollFunction()};
+		
+		function scrollFunction() {
+			if (document.body.scrollTop > 670 || document.documentElement.scrollTop > 670) {	
+				document.getElementById("myBtn").style.display = "block";	
+			} 
+				else {
+				document.getElementById("myBtn").style.display = "none";
+			}
+			if (document.body.scrollTop > 670 || document.documentElement.scrollTop > 670) {	
+				document.getElementById("gitu").style.display = "none";	
+			} 
+				else {
+				document.getElementById("gitu").style.display = "block";
+			}
+
+
+		}
+		
+		// When the user clicks on the button, scroll to the top of the document
+		function topFunction() {
+			document.body.scrollTop = 0;
+			document.documentElement.scrollTop = 0;
+		}
+		</script>
+		
+
+	<script type="text/javascript" src="./js/form.js"></script>
+	<script type="text/javascript" src="./js/transition.js"></script>
+	<script type="text/javascript" src="./js/carousel.js"></script>
+	<script src="./js/jquery-3.3.1.js"></script>
+	<script src="./js/bootstrap.min.js"></script>
+	<link rel="stylesheet" type="text/css" href="./css/index.css">
+</body>
+
+</html>
